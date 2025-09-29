@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Michael Owino Omoro - 30+ years experience in construction services in Kitengela, Kenya. Expert in residential homes, apartments, and large-scale projects. Get free quotes for your construction project.">
+    <meta name="description" content="Michael Owino Omoro - Founded in 1990 with 35+ years experience in construction services in Kitengela, Kenya. Expert in residential homes, apartments, and large-scale projects. Get free quotes for your construction project.">
     <meta name="keywords" content="construction services in Kitengela, apartment builders in Nairobi, Kitengela contractor, house builder Kenya, residential construction Kenya, construction company Nairobi, building contractor Kenya">
     <meta name="author" content="Michael Owino Omoro">
     <meta name="robots" content="index, follow">
@@ -17,7 +17,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://michaelowinoconstructions.com/">
     <meta property="og:title" content="Michael Owino Constructions - Building Homes, Creating Legacies">
-    <meta property="og:description" content="30+ years of construction excellence in Kitengela and Nairobi. Residential homes, apartments, and commercial projects. Get your free quote today.">
+    <meta property="og:description" content="Founded in 1990 with 35+ years of construction excellence in Kitengela and Nairobi. Residential homes, apartments, and commercial projects. Get your free quote today.">
     <meta property="og:image" content="https://michaelowinoconstructions.com/carousel 1.jpg">
     <meta property="og:site_name" content="Michael Owino Constructions">
     
@@ -25,7 +25,7 @@
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://michaelowinoconstructions.com/">
     <meta property="twitter:title" content="Michael Owino Constructions - Building Homes, Creating Legacies">
-    <meta property="twitter:description" content="30+ years of construction excellence in Kitengela and Nairobi. Residential homes, apartments, and commercial projects.">
+    <meta property="twitter:description" content="Founded in 1990 with 35+ years of construction excellence in Kitengela and Nairobi. Residential homes, apartments, and commercial projects.">
     <meta property="twitter:image" content="https://michaelowinoconstructions.com/carousel 1.jpg">
     
     <!-- Canonical URL -->
@@ -41,12 +41,17 @@
       "@type": "LocalBusiness",
       "name": "Michael Owino Constructions",
       "alternateName": "Michael Owino Omoro Construction Services",
-      "description": "Professional construction services in Kitengela and Nairobi with over 30 years of experience in residential and commercial projects.",
+      "description": "Professional construction services in Kitengela and Nairobi with over 35 years of experience in residential and commercial projects.",
       "image": "https://michaelowinoconstructions.com/carousel 1.jpg",
       "@id": "https://michaelowinoconstructions.com",
       "url": "https://michaelowinoconstructions.com",
       "telephone": "+254715361127",
       "email": "michaelowino@gmail.com",
+      "foundingDate": "1990",
+      "founder": {
+        "@type": "Person",
+        "name": "Michael Owino Omoro"
+      },
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Ruaka",
@@ -151,7 +156,49 @@
     }
     </script>
     
-    <title>Michael Owino Constructions - Building Homes, Creating Legacies</title>
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does a home construction project typically take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The timeline depends on the size and complexity of the project. A standard 3-bedroom house typically takes 4-6 months, while larger projects like apartment buildings can take 8-12 months. We provide detailed timelines during the planning phase."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you help with building permits and approvals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we handle all necessary permits and approvals from local authorities including NCA, NEMA, and county government. Our team is experienced in navigating Kenya's construction regulations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide free quotes and consultations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely! We offer free initial consultations and detailed quotes with no obligation. Contact us to schedule a site visit and discuss your project requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What areas in Kenya do you serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We primarily serve Nairobi, Kitengela, Athi River and surrounding areas, but have completed projects across Kenya including Kakamega, Mombasa, and Nakuru."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <title>Michael Owino Constructions - Building Homes, Creating Legacies Since 1990</title>
     <link rel="icon" href="https://kaleidoscopic-snickerdoodle-e46a9b.netlify.app/favicon.ico" type="image/x-icon">
     
     <!-- Bootstrap 5 CSS -->
@@ -160,45 +207,807 @@
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css%3Fv=1.1.css">
-
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #1a5276;
+            --secondary: #f39c12;
+            --accent: #2e86c1;
+            --dark: #1c2833;
+            --light: #f8f9fa;
+            --gray: #566573;
+        }
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+        
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 15px 0;
+            transition: all 0.3s ease;
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 1.5rem;
+        }
+        
+        .nav-link {
+            font-weight: 500;
+            color: var(--dark);
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+        
+        .nav-link:hover, .nav-link.active {
+            color: var(--secondary);
+        }
+        
+        .hero {
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-slide {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        
+        .hero-content {
+            color: white;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            z-index: 2;
+            position: relative;
+        }
+        
+        .hero-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        
+        .btn-primary {
+            background-color: var(--secondary);
+            border-color: var(--secondary);
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary:hover {
+            background-color: #e67e22;
+            border-color: #e67e22;
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            background-color: transparent;
+            border-color: white;
+            color: white;
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        .btn-secondary:hover {
+            background-color: white;
+            color: var(--primary);
+            transform: translateY(-2px);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .section-title h2 {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+        
+        .section-title h2:after {
+            content: '';
+            position: absolute;
+            width: 70px;
+            height: 3px;
+            background-color: var(--secondary);
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .section-title p {
+            color: var(--gray);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .about-img {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .about-content h3 {
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        
+        .about-content ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .about-content ul li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .about-content ul li i {
+            color: var(--secondary);
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+        
+        .service-card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            height: 100%;
+            margin-bottom: 30px;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .service-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+        }
+        
+        .service-icon i {
+            font-size: 30px;
+            color: white;
+        }
+        
+        .service-card h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+        
+        .project-item {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .project-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .project-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .project-item:hover .project-img {
+            transform: scale(1.05);
+        }
+        
+        .project-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+            color: white;
+            padding: 20px;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+        
+        .project-item:hover .project-info {
+            transform: translateY(0);
+        }
+        
+        .project-year {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: var(--secondary);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        
+        .testimonial-card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+            height: 100%;
+            position: relative;
+        }
+        
+        .testimonial-card:before {
+            content: '"';
+            font-size: 80px;
+            color: var(--secondary);
+            opacity: 0.2;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-family: Georgia, serif;
+        }
+        
+        .quote p {
+            font-style: italic;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .client-info {
+            display: flex;
+            align-items: center;
+        }
+        
+        .client-img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+        
+        .client-info h5 {
+            margin-bottom: 5px;
+            color: var(--primary);
+        }
+        
+        .client-info p {
+            margin: 0;
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+        
+        .stars {
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            height: 100%;
+        }
+        
+        .contact-info h3 {
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        
+        .contact-info .d-flex {
+            margin-bottom: 20px;
+        }
+        
+        .contact-info i {
+            width: 40px;
+            height: 40px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        
+        .contact-info h5 {
+            margin-bottom: 5px;
+            color: var(--primary);
+        }
+        
+        .contact-form {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .form-control {
+            padding: 12px 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            transition: all 0.3s;
+        }
+        
+        .form-control:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 0.2rem rgba(26, 82, 118, 0.25);
+        }
+        
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 60px 0 0;
+        }
+        
+        .footer-links h4 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+        
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-links ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links ul li a {
+            color: #bdc3c7;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-links ul li a:hover {
+            color: var(--secondary);
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            margin-right: 10px;
+            color: white;
+            transition: all 0.3s;
+        }
+        
+        .social-links a:hover {
+            background: var(--secondary);
+            transform: translateY(-3px);
+        }
+        
+        .copyright {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 20px 0;
+            margin-top: 40px;
+            text-align: center;
+            color: #bdc3c7;
+        }
+        
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s;
+            z-index: 1000;
+        }
+        
+        .back-to-top.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .back-to-top:hover {
+            background: var(--secondary);
+            transform: translateY(-3px);
+        }
+        
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 24px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            transition: all 0.3s;
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        .stats-section {
+            background: linear-gradient(rgba(26, 82, 118, 0.9), rgba(26, 82, 118, 0.9)), url('construction-bg.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 80px 0;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--secondary);
+        }
+        
+        .stat-text {
+            font-size: 1.1rem;
+        }
+        
+        .certifications {
+            background: var(--light);
+            padding: 60px 0;
+        }
+        
+        .cert-logo {
+            height: 80px;
+            margin: 15px;
+            filter: grayscale(100%);
+            opacity: 0.7;
+            transition: all 0.3s;
+        }
+        
+        .cert-logo:hover {
+            filter: grayscale(0%);
+            opacity: 1;
+        }
+        
+        .timeline {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            background-color: var(--primary);
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -3px;
+        }
+        
+        .timeline-item {
+            padding: 10px 40px;
+            position: relative;
+            width: 50%;
+            box-sizing: border-box;
+        }
+        
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: -13px;
+            background-color: white;
+            border: 4px solid var(--secondary);
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        
+        .left {
+            left: 0;
+        }
+        
+        .right {
+            left: 50%;
+        }
+        
+        .left::before {
+            content: " ";
+            height: 0;
+            position: absolute;
+            top: 22px;
+            width: 0;
+            z-index: 1;
+            right: 30px;
+            border: medium solid white;
+            border-width: 10px 0 10px 10px;
+            border-color: transparent transparent transparent white;
+        }
+        
+        .right::before {
+            content: " ";
+            height: 0;
+            position: absolute;
+            top: 22px;
+            width: 0;
+            z-index: 1;
+            left: 30px;
+            border: medium solid white;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent white transparent transparent;
+        }
+        
+        .right::after {
+            left: -13px;
+        }
+        
+        .timeline-content {
+            padding: 20px 30px;
+            background-color: white;
+            position: relative;
+            border-radius: 6px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .timeline-content h4 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        
+        .timeline-content .year {
+            color: var(--secondary);
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        
+        .faq-item {
+            margin-bottom: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            padding: 20px;
+            background: var(--light);
+            cursor: pointer;
+            display: flex;
+            justify-content: between;
+            align-items: center;
+            font-weight: 600;
+            color: var(--primary);
+        }
+        
+        .faq-question:after {
+            content: '+';
+            font-size: 1.5rem;
+            color: var(--secondary);
+        }
+        
+        .faq-answer {
+            padding: 0 20px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+        }
+        
+        .faq-item.active .faq-answer {
+            padding: 20px;
+            max-height: 500px;
+        }
+        
+        .faq-item.active .faq-question:after {
+            content: '-';
+        }
+        
+        .blog-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            margin-bottom: 30px;
+            height: 100%;
+        }
+        
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .blog-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .blog-content {
+            padding: 20px;
+        }
+        
+        .blog-date {
+            color: var(--secondary);
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        .blog-card h4 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        
+        .sticky-quote {
+            position: fixed;
+            bottom: 100px;
+            right: 30px;
+            background: var(--secondary);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 30px;
+            font-weight: 600;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            transition: all 0.3s;
+        }
+        
+        .sticky-quote:hover {
+            background: #e67e22;
+            transform: translateY(-3px);
+            color: white;
+        }
+        
+        .section-cta {
+            background: var(--primary);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .section-cta h3 {
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero-content p {
+                font-size: 1rem;
+            }
+            
+            .stat-number {
+                font-size: 2.5rem;
+            }
+            
+            .timeline::after {
+                left: 31px;
+            }
+            
+            .timeline-item {
+                width: 100%;
+                padding-left: 70px;
+                padding-right: 25px;
+            }
+            
+            .timeline-item::before {
+                left: 60px;
+                border: medium solid white;
+                border-width: 10px 10px 10px 0;
+                border-color: transparent white transparent transparent;
+            }
+            
+            .left::after, .right::after {
+                left: 18px;
+            }
+            
+            .right {
+                left: 0%;
+            }
+        }
+    </style>
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html#">Michael Constructions</a>
+            <a class="navbar-brand" href="#home">Michael Constructions</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html#home">Home</a>
+                        <a class="nav-link active" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#about">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#services">Services</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#projects">Projects</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#gallery">Gallery</a>
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#testimonials">Testimonials</a>
+                        <a class="nav-link" href="#blog">Insights</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#contact">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
+    <!-- Sticky Quote Button -->
+    <a href="#contact" class="sticky-quote">Request a Quote</a>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
@@ -210,37 +1019,37 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="hero-slide" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('carousel 1.jpg') no-repeat center center/cover;">
+                    <div class="hero-slide" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('Beautiful 4 bedroom house in Kenya.jpeg') no-repeat center center/cover;">
                         <div class="container">
                             <div class="hero-content">
-                                <h1>Building Homes, Creating Legacies</h1>
-                                <p>With over 30 years of experience in construction, Michael Owino Omoro delivers quality residential and commercial projects in Kitengela and Nairobi. Trusted by homeowners and developers across Kenya.</p>
-                                <a href="index.html#contact" class="btn btn-primary btn-lg me-2">Get a Quote</a>
-                                <a href="index.html#projects" class="btn btn-secondary btn-lg">View Projects</a>
+                                <h1>Building Homes, Creating Legacies Since 1990</h1>
+                                <p>Founded in 1990, Michael Owino Constructions has been serving Kenya for over 35 years with quality residential and commercial projects in Kitengela and Nairobi. Trusted by homeowners and developers across Kenya.</p>
+                                <a href="#contact" class="btn btn-primary btn-lg me-2">Get a Quote</a>
+                                <a href="#projects" class="btn btn-secondary btn-lg">View Projects</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="hero-slide" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('carousel 2.jpg') no-repeat center center/cover;">
+                    <div class="hero-slide" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('Kanana\'s apartment.jpeg') no-repeat center center/cover;">
                         <div class="container">
                             <div class="hero-content">
                                 <h1>Quality Construction Services</h1>
                                 <p>From residential homes to commercial buildings, we deliver excellence in every project. Our commitment to quality and attention to detail sets us apart in the construction industry.</p>
-                                <a href="index.html#contact" class="btn btn-primary btn-lg me-2">Get a Quote</a>
-                                <a href="index.html#projects" class="btn btn-secondary btn-lg">View Projects</a>
+                                <a href="#contact" class="btn btn-primary btn-lg me-2">Get a Quote</a>
+                                <a href="#projects" class="btn btn-secondary btn-lg">View Projects</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="hero-slide" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('carousel 3.jpg') no-repeat center center/cover;">
+                    <div class="hero-slide" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('Punda Milias Luxury Bush Retreat - Houses for Rent….jpeg') no-repeat center center/cover;">
                         <div class="container">
                             <div class="hero-content">
                                 <h1>Trusted Construction Partner</h1>
-                                <p>Over 150 successful projects completed across Kenya Largely Nairobi. Join our satisfied clients who have trusted us to build their dreams into reality.</p>
-                                <a href="index.html#contact" class="btn btn-primary btn-lg me-2">Get a Quote</a>
-                                <a href="index.html#projects" class="btn btn-secondary btn-lg">View Projects</a>
+                                <p>Over 150 successful projects completed across Kenya. Join our satisfied clients who have trusted us to build their dreams into reality.</p>
+                                <a href="#contact" class="btn btn-primary btn-lg me-2">Get a Quote</a>
+                                <a href="#projects" class="btn btn-secondary btn-lg">View Projects</a>
                             </div>
                         </div>
                     </div>
@@ -257,6 +1066,65 @@
         </div>
     </section>
 
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <div class="stat-number">35+</div>
+                        <div class="stat-text">Years Experience</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <div class="stat-number">150+</div>
+                        <div class="stat-text">Projects Completed</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-text">Client Satisfaction</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-text">Areas Served</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications">
+        <div class="container">
+            <div class="section-title">
+                <h2>Certifications & Affiliations</h2>
+                <p>We maintain the highest industry standards and certifications</p>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-2 col-4 text-center">
+                    <img src="nca.jpeg" alt="NCA Kenya" class="img-fluid cert-logo">
+                </div>
+                <div class="col-md-2 col-4 text-center">
+                    <img src="iso.jpeg" alt="ISO Certified" class="img-fluid cert-logo">
+                </div>
+                <div class="col-md-2 col-4 text-center">
+                    <img src="kmfb.jpeg" alt="Construction Federation of Kenya" class="img-fluid cert-logo">
+                </div>
+                <div class="col-md-2 col-4 text-center">
+                    <img src="archtects.jpeg" alt="Architects Association of Kenya" class="img-fluid cert-logo">
+                </div>
+                <div class="col-md-2 col-4 text-center">
+                    <img src="green.jpeg" alt="Green Building Society of Kenya" class="img-fluid cert-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- About Section -->
     <section id="about" class="py-5">
         <div class="container">
@@ -266,20 +1134,58 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-img">
-                        <img src="download.jpg" alt="Michael Owino Omoro" class="img-fluid">
+                        <img src="site.jpeg" alt="Michael Owino Omoro" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="about-content">
-                        <h3>30+ Years of Construction Excellence in Kitengela</h3>
-                        <p>Michael Owino Omoro is a seasoned construction expert based in Kitengela, Kenya, with over three decades of experience in building residential homes, apartments, and large-scale commercial projects.</p>
+                        <h3>Building Kenya's Future Since 1990</h3>
+                        <p><strong>Founded in 1990</strong>, Michael Owino Constructions has been serving Kenya for over 35 years with quality construction services. Michael Owino Omoro is a seasoned construction expert based in Kitengela, Kenya, with extensive experience in building residential homes, apartments, and large-scale commercial projects.</p>
                         <p>What sets Michael apart is his commitment to quality craftsmanship, attention to detail, and adherence to project timelines. His hands-on approach ensures that every project meets the highest standards of construction.</p>
                         <ul>
-                            <li><i class="fas fa-check-circle"></i> Over 150 successful projects completed</li>
+                            <li><i class="fas fa-check-circle"></i> Over 150 successful projects completed since 1990</li>
                             <li><i class="fas fa-check-circle"></i> Licensed and certified construction professional</li>
                             <li><i class="fas fa-check-circle"></i> Uses only high-quality materials from trusted suppliers</li>
                             <li><i class="fas fa-check-circle"></i> Committed to sustainable building practices</li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Timeline Section -->
+            <div class="mt-5">
+                <div class="section-title">
+                    <h2>Our Journey</h2>
+                    <p>35 years of construction excellence in Kenya</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <div class="year">1990</div>
+                            <h4>Company Founded</h4>
+                            <p>Michael Owino Constructions was established, beginning with small residential projects in Kitengela.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right">
+                        <div class="timeline-content">
+                            <div class="year">2005</div>
+                            <h4>Expansion to Nairobi</h4>
+                            <p>Expanded operations to include larger commercial projects in Nairobi and surrounding areas.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <div class="year">2015</div>
+                            <h4>100+ Projects Milestone</h4>
+                            <p>Celebrated the completion of over 100 successful construction projects across Kenya.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right">
+                        <div class="timeline-content">
+                            <div class="year">2025</div>
+                            <h4>35 Years of Excellence</h4>
+                            <p>Continuing to build Kenya's future with 150+ projects and counting.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -332,6 +1238,15 @@
                 </div>
             </div>
         </div>
+        
+        <!-- Services CTA -->
+        <div class="section-cta mt-5">
+            <div class="container">
+                <h3>Ready to Start Your Construction Project?</h3>
+                <p>Get a free consultation and quote for your residential or commercial construction needs.</p>
+                <a href="#contact" class="btn btn-secondary btn-lg">Get a Free Quote</a>
+            </div>
+        </div>
     </section>
 
     <!-- Projects Section -->
@@ -339,13 +1254,14 @@
         <div class="container">
             <div class="section-title">
                 <h2>Our Projects</h2>
-                <p>Showcase of our completed construction projects in Kitengela and Nairobi</p>
+                <p>Showcase of our completed construction projects across Kenya since 1990</p>
             </div>
             <div class="row">
                 <!-- Project 1 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="project-item">
-                        <img src="home&#32;1.jpg" alt="Luxury Villa in Kitengela" class="img-fluid project-img">
+                        <div class="project-year">2023</div>
+                        <img src="Beautiful 4 bedroom house in Kenya (1).jpeg" alt="Luxury Villa in Kitengela" class="img-fluid project-img">
                         <div class="project-info">
                             <h4>Luxury Villa in Kitengela</h4>
                             <p>5-bedroom executive home with swimming pool and landscaped gardens</p>
@@ -355,7 +1271,8 @@
                 <!-- Project 2 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="project-item">
-                        <img src="home&#32;2.jpg" alt="Apartment Complex in Ruaka" class="img-fluid project-img">
+                        <div class="project-year">2022</div>
+                        <img src="Kanana's apartment.jpeg" alt="Apartment Complex in Ruaka" class="img-fluid project-img">
                         <div class="project-info">
                             <h4>Apartment Complex in Ruaka</h4>
                             <p>24-unit residential development with modern amenities</p>
@@ -365,7 +1282,8 @@
                 <!-- Project 3 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="project-item">
-                        <img src="ngong&#32;road.jpg" alt="Office Building in Nairobi" class="img-fluid project-img">
+                        <div class="project-year">2021</div>
+                        <img src="Punda Milias Luxury Bush Retreat - Houses for Rent….jpeg" alt="Office Building in Nairobi" class="img-fluid project-img">
                         <div class="project-info">
                             <h4>Office Building in Nairobi</h4>
                             <p>Commercial space with retail shops and office spaces</p>
@@ -375,7 +1293,8 @@
                 <!-- Project 4 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="project-item">
-                        <img src="ngong&#32;road&#32;2.jpg" alt="Bungalow in Kitengela" class="img-fluid project-img">
+                        <div class="project-year">2020</div>
+                        <img src="Kanana's apartment.jpeg" alt="Bungalow in Kitengela" class="img-fluid project-img">
                         <div class="project-info">
                             <h4>Bungalow in Kitengela</h4>
                             <p>3-bedroom family home with spacious living areas</p>
@@ -385,7 +1304,8 @@
                 <!-- Project 5 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="project-item">
-                        <img src="images.jpg" alt="Townhouses in Athi River" class="img-fluid project-img">
+                        <div class="project-year">2019</div>
+                        <img src="2 Bedrooms In kileleshwa 52 k (MD11133051)….jpeg" alt="Townhouses in Athi River" class="img-fluid project-img">
                         <div class="project-info">
                             <h4>Townhouses in Athi River</h4>
                             <p>Gated community development with 8 semi-detached units</p>
@@ -395,72 +1315,22 @@
                 <!-- Project 6 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="project-item">
-                        <img src="images&#32;(1).jpg" alt="Commercial Renovation" class="img-fluid project-img">
+                        <div class="project-year">2018</div>
+                        <img src="Luxurious and unique two bedroom furnished….jpeg" alt="Commercial Renovation" class="img-fluid project-img">
                         <div class="project-info">
                             <h4>Commercial Renovation</h4>
                             <p>Complete refurbishment of retail space in Nairobi CBD</p>
                         </div>
                     </div>
                 </div>
-                <!-- Project 7 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="project-item">
-                        <img src="images&#32;(2).jpg" alt="Residential Complex" class="img-fluid project-img">
-                        <div class="project-info">
-                            <h4>Residential Complex</h4>
-                            <p>Modern residential development with contemporary design</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project 8 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="project-item">
-                        <img src="images&#32;(3).jpg" alt="Construction Site" class="img-fluid project-img">
-                        <div class="project-info">
-                            <h4>Construction Site</h4>
-                            <p>Active construction project showcasing our work process</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project 9 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="project-item">
-                        <img src="images&#32;(4).jpg" alt="Building Project" class="img-fluid project-img">
-                        <div class="project-info">
-                            <h4>Building Project</h4>
-                            <p>Multi-story building project in development</p>
-                        </div>
-                    </div>
-                </div>
             </div>
-            <div class="text-center mt-4">
-                <a href="index.html#contact" class="btn btn-primary btn-lg">Start Your Project</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section id="gallery" class="py-5 bg-light">
-        <div class="container">
-            <div class="section-title">
-                <h2>Project Gallery</h2>
-                <p>Take a closer look at our construction work and project progress</p>
-            </div>
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="gallery-item">
-                        <img src="download&#32;(1).jpg" alt="Construction Work" class="img-fluid rounded shadow">
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="gallery-item">
-                        <img src="download&#32;(3).jpg" alt="Building Progress" class="img-fluid rounded shadow">
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="gallery-item">
-                        <img src="hero&#32;cousel&#32;5.jpg" alt="Project Showcase" class="img-fluid rounded shadow">
-                    </div>
+            
+            <!-- Projects CTA -->
+            <div class="section-cta mt-5">
+                <div class="container">
+                    <h3>Inspired by Our Work?</h3>
+                    <p>Let's discuss how we can bring your construction vision to life.</p>
+                    <a href="#contact" class="btn btn-secondary btn-lg">Start Your Project</a>
                 </div>
             </div>
         </div>
@@ -473,15 +1343,22 @@
                 <h2>Client Testimonials</h2>
                 <p>What our clients say about our construction services</p>
             </div>
-            <div class="row" id="testimonial-slider">
+            <div class="row">
                 <!-- Testimonial 1 -->
                 <div class="col-lg-4">
                     <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
                         <div class="quote">
                             <p>"Michael built our dream home in Kakamega and exceeded all our expectations. His attention to detail and commitment to quality is unmatched. The project was completed on time and within budget."</p>
                         </div>
                         <div class="client-info">
-                            <img src="Dr.&#32;Amos&#32;Shibale.&#32;Washington&#32;University,&#32;Seattle USA.jpg" alt="Client" class="client-img">
+                            <img src="john.jpg" alt="Client" class="client-img">
                             <div>
                                 <h5>James Mwangi</h5>
                                 <p>HomeOwner, Kakamega</p>
@@ -492,6 +1369,13 @@
                 <!-- Testimonial 2 -->
                 <div class="col-lg-4">
                     <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
                         <div class="quote">
                             <p>"We've worked with Michael on three apartment projects in Nairobi. His team is professional, reliable, and delivers exceptional quality. Highly recommended for any company and individuals looking for a trustworthy contractor."</p>
                         </div>
@@ -507,6 +1391,13 @@
                 <!-- Testimonial 3 -->
                 <div class="col-lg-4">
                     <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
                         <div class="quote">
                             <p>"After a bad experience with another contractor, Michael took over our stalled project and completed it beautifully. His experience really shows in his workmanship and problem-solving skills."</p>
                         </div>
@@ -516,6 +1407,117 @@
                                 <h5>David Omondi</h5>
                                 <p>Business Owner, Ruaka</p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Google Reviews Embed (placeholder) -->
+            <div class="text-center mt-5">
+                <h3>See Our Google Reviews</h3>
+                <p>Read more testimonials from our satisfied clients</p>
+                <!-- In a real implementation, you would embed the actual Google Reviews widget here -->
+                <div class="bg-white p-4 rounded shadow-sm d-inline-block">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fab fa-google text-primary me-2"></i>
+                        <h4 class="mb-0">Google Reviews</h4>
+                    </div>
+                    <div class="stars mb-2">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span class="ms-2">4.8/5 (150+ reviews)</span>
+                    </div>
+                    <a href="#" class="btn btn-outline-primary btn-sm">View All Reviews</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>Construction Insights</h2>
+                <p>Latest tips, trends, and advice for your construction projects</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="blog-card">
+                        <img src="Beautiful 4 bedroom house in Kenya.jpeg" alt="Construction Tips" class="blog-img">
+                        <div class="blog-content">
+                            <span class="blog-date">March 15, 2023</span>
+                            <h4>5 Cost-Saving Tips for Your Home Construction</h4>
+                            <p>Learn how to optimize your budget without compromising on quality for your residential project.</p>
+                            <a href="#" class="text-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-card">
+                        <img src="Recently Completed Project_ 1 & 2 Bedroom….jpeg" alt="Design Trends" class="blog-img">
+                        <div class="blog-content">
+                            <span class="blog-date">February 28, 2020</span>
+                            <h4>Top Construction Design Trends in Kenya 2025</h4>
+                            <p>Discover the latest architectural styles and materials gaining popularity in Kenyan homes.</p>
+                            <a href="#" class="text-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-card">
+                        <img src="Kanana's apartment.jpeg" alt="Building Regulations" class="blog-img">
+                        <div class="blog-content">
+                            <span class="blog-date">January 10, 2022</span>
+                            <h4>Understanding Kenya's Building Regulations & Permits</h4>
+                            <p>A guide to navigating the necessary approvals for your construction project in Kenya.</p>
+                            <a href="#" class="text-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-5 bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Common questions about our construction services</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="faq-item">
+                        <div class="faq-question">How long does a home construction project typically take?</div>
+                        <div class="faq-answer">
+                            <p>The timeline depends on the size and complexity of the project. A standard 3-bedroom house typically takes 4-6 months, while larger projects like apartment buildings can take 8-12 months. We provide detailed timelines during the planning phase.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Do you help with building permits and approvals?</div>
+                        <div class="faq-answer">
+                            <p>Yes, we handle all necessary permits and approvals from local authorities including NCA, NEMA, and county government. Our team is experienced in navigating Kenya's construction regulations.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Do you provide free quotes and consultations?</div>
+                        <div class="faq-answer">
+                            <p>Absolutely! We offer free initial consultations and detailed quotes with no obligation. Contact us to schedule a site visit and discuss your project requirements.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">What areas in Kenya do you serve?</div>
+                        <div class="faq-answer">
+                            <p>We primarily serve Nairobi, Kitengela, Athi River and surrounding areas, but have completed projects across Kenya including Kakamega, Mombasa, and Nakuru.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">What is your payment structure?</div>
+                        <div class="faq-answer">
+                            <p>We typically work with a milestone-based payment system: 20% deposit, 30% after foundation, 30% after roofing, and 20% upon completion. We're flexible and can customize payment plans based on project requirements.</p>
                         </div>
                     </div>
                 </div>
@@ -548,7 +1550,7 @@
                             <i class="fas fa-phone-alt"></i>
                             <div>
                                 <h5>Phone</h5>
-                                <p><a href="tel:+254715361127">0715 361127</a></p>
+                                <p><a href="tel:+254715361127">Click to call us</a></p>
                             </div>
                         </div>
                         
@@ -556,7 +1558,7 @@
                             <i class="fab fa-whatsapp"></i>
                             <div>
                                 <h5>WhatsApp</h5>
-                                <p><a href="https://wa.me/254715361127">0715 361127</a></p>
+                                <p><a href="https://wa.me/254715361127">Click to chat us</a></p>
                             </div>
                         </div>
                         
@@ -568,46 +1570,41 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="map-container mt-4">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.854321119149!2d36.8144!3d-1.2185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTMnMDYuNiJTIDM2wrA0OCc1MS44IkU!5e0!3m2!1sen!2ske!4v1620000000000!5m2!1sen!2ske" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
                 </div>
                 
                 <div class="col-lg-6">
                     <div class="contact-form">
                         <h3 class="mb-4">Send Us a Message</h3>
-                            <form id="constructionForm" action="https://formsubmit.co/solutionsnelson@gmail.com" method="POST">
-    <div class="mb-3">
-        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
-        <div class="invalid-feedback">Please enter your name.</div>
-    </div>
-    <div class="mb-3">
-        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-        <div class="invalid-feedback">Please enter a valid email address.</div>
-    </div>
-    <div class="mb-3">
-        <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number" required>
-        <div class="invalid-feedback">Please enter your phone number.</div>
-    </div>
-    <div class="mb-3">
-        <select class="form-control" name="service" id="service" required>
-            <option value="" disabled selected>Select Service</option>
-            <option value="residential">Residential Construction</option>
-            <option value="apartment">Apartment Building</option>
-            <option value="renovation">Renovation & Repair</option>
-            <option value="design">Design & Consulting</option>
-            <option value="other">Other</option>
-        </select>
-        <div class="invalid-feedback">Please select a service.</div>
-    </div>
-    <div class="mb-3">
-        <textarea class="form-control" name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
-        <div class="invalid-feedback">Please enter your message.</div>
-    </div>
-    <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
-</form>
-
+                        <form id="constructionForm" action="https://formsubmit.co/solutionsnelson@gmail.com" method="POST">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                                <div class="invalid-feedback">Please enter your name.</div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                <div class="invalid-feedback">Please enter a valid email address.</div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number" required>
+                                <div class="invalid-feedback">Please enter your phone number.</div>
+                            </div>
+                            <div class="mb-3">
+                                <select class="form-control" name="service" id="service" required>
+                                    <option value="" disabled selected>Select Service</option>
+                                    <option value="residential">Residential Construction</option>
+                                    <option value="apartment">Apartment Building</option>
+                                    <option value="renovation">Renovation & Repair</option>
+                                    <option value="design">Design & Consulting</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <div class="invalid-feedback">Please select a service.</div>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+                                <div class="invalid-feedback">Please enter your message.</div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -621,12 +1618,12 @@
                 <div class="col-lg-4">
                     <div class="footer-links">
                         <h4>Michael Owino Constructions</h4>
-                        <p>Building homes and creating legacies in Kitengela and Nairobi for over 30 years. Quality construction services you can trust.</p>
+                        <p><strong>Founded in 1990</strong> - Building homes and creating legacies in Kitengela and Nairobi for over 35 years. Quality construction services you can trust.</p>
                         <div class="social-links mt-3">
-                            <a href="index.html#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="index.html#"><i class="fab fa-twitter"></i></a>
-                            <a href="index.html#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="index.html#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -634,12 +1631,12 @@
                     <div class="footer-links">
                         <h4>Quick Links</h4>
                         <ul>
-                            <li><a href="index.html#home">Home</a></li>
-                            <li><a href="index.html#about">About</a></li>
-                            <li><a href="index.html#services">Services</a></li>
-                            <li><a href="index.html#projects">Projects</a></li>
-                            <li><a href="index.html#testimonials">Testimonials</a></li>
-                            <li><a href="index.html#contact">Contact</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -647,11 +1644,11 @@
                     <div class="footer-links">
                         <h4>Our Services</h4>
                         <ul>
-                            <li><a href="index.html#">Residential Construction</a></li>
-                            <li><a href="index.html#">Apartment Buildings</a></li>
-                            <li><a href="index.html#">Renovation & Repair</a></li>
-                            <li><a href="index.html#">Structural Design</a></li>
-                            <li><a href="index.html#">Construction Consulting</a></li>
+                            <li><a href="#">Residential Construction</a></li>
+                            <li><a href="#">Apartment Buildings</a></li>
+                            <li><a href="#">Renovation & Repair</a></li>
+                            <li><a href="#">Structural Design</a></li>
+                            <li><a href="#">Construction Consulting</a></li>
                         </ul>
                     </div>
                 </div>
@@ -659,21 +1656,21 @@
                     <div class="footer-links">
                         <h4>Contact Info</h4>
                         <ul>
-                            <li><i class="fas fa-map-marker-alt me-2"></i> Ruaka, Kitengela, Kenya</li>
-                            <li><i class="fas fa-phone-alt me-2"></i> <a href="tel:+254715361127">0715 361127</a></li>
-                            <li><i class="fas fa-envelope me-2"></i> <a href="mailto:michaelowino@gmail.com">michaelowino@gmail.com</a></li>
+                            <li><i class="fas fa-map-marker-alt me-2"></i> Nairobi, Kenya</li>
+                            <li><i class="fas fa-phone-alt me-2"></i> <a href="tel:+254715361127">Call Us By Click</a></li>
+                            <li><i class="fas fa-envelope me-2"></i> <a href="mailto:michaelowino@gmail.com">Email us by a Click</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; <script>document.write(new Date().getFullYear())</script> Michael Owino Constructions. All Rights Reserved.</p>
+                <p>&copy; <script>document.write(new Date().getFullYear())</script> Michael Owino Constructions. All Rights Reserved. | Founded in 1990 - 35+ Years of Excellence</p>
             </div>
         </div>
     </footer>
 
     <!-- Back to Top Button -->
-    <a href="index.html#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
 
     <!-- WhatsApp Float Button -->
     <a href="https://wa.me/254715361127" class="whatsapp-float" target="_blank">
@@ -684,6 +1681,76 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
     <!-- Custom JavaScript -->
-    <script src="script.js%3Fv=1.1"></script>
+    <script>
+        // Back to top button
+        const backToTopButton = document.querySelector('.back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('active');
+            } else {
+                backToTopButton.classList.remove('active');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                document.querySelector('.navbar').style.padding = '10px 0';
+                document.querySelector('.navbar').style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+            } else {
+                document.querySelector('.navbar').style.padding = '15px 0';
+                document.querySelector('.navbar').style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+            }
+        });
+        
+        // Form validation
+        const form = document.getElementById('constructionForm');
+        form.addEventListener('submit', function(event) {
+            if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+        }, false);
+        
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+        
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            
+            question.addEventListener('click', () => {
+                // Close all other items
+                faqItems.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+                
+                // Toggle current item
+                item.classList.toggle('active');
+            });
+        });
+        
+        // Lazy loading for images (native browser support)
+        // Modern browsers support the loading="lazy" attribute which we've already added
+        // This is just a fallback for older browsers
+        if ('loading' in HTMLImageElement.prototype) {
+            // Browser supports lazy loading
+            const images = document.querySelectorAll('img[loading="lazy"]');
+            images.forEach(img => {
+                img.src = img.dataset.src;
+            });
+        } else {
+            // Fallback for older browsers
+            // You could implement a more sophisticated lazy loading solution here if needed
+        }
+    </script>
 </body>
 </html>
